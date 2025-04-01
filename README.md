@@ -90,12 +90,4 @@ Clear docstrings
 For questions or suggestions:shubhgarg265@gmail.com
 
 
-This README includes:
-- Badges for key technologies
-- Clear installation instructions
-- Ready-to-run code example
-- Visual structure with emojis
-- Complete technical documentation
-- License and contribution guidelines
 
-You can copy this directly into a `README.md` file in your project root directory. The formatting will render perfectly on GitHub/GitLab.
