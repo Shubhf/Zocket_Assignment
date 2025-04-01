@@ -26,7 +26,8 @@ An intelligent agent that automatically analyzes web content to extract key info
 pip install nltk transformers requests beautifulsoup4
 python -m nltk.downloader punkt stopwords
 
-##  🏃‍♂️ Quick Start
+### 🏃‍♂️ Quick Start
+```python
 from web_agent import WebContentAgent
 
 agent = WebContentAgent()
@@ -39,6 +40,7 @@ else:
     print(f"Error: {result['message']}")
 }
 ##📋 Sample Output
+```python
 
 {
   "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
@@ -47,7 +49,7 @@ else:
   "status": "success"
 }
 
-🧩 How It Works
+###🧩 How It Works
 URL Processing: Fetches and parses web content
 
 Text Extraction: Identifies main content paragraphs
@@ -58,7 +60,7 @@ Summarization: Applies transformer-based abstractive summarization
 
 Adaptive Handling: Automatically adjusts for text length
 
-🌟 Use Cases
+###🌟 Use Cases
 Academic research assistance
 
 Competitive intelligence
@@ -69,13 +71,13 @@ Content discovery and analysis
 
 Knowledge management systems
 
-⚠️ Limitations
+###⚠️ Limitations
 May struggle with JavaScript-heavy websites
 
 Summary quality varies with input text complexity
 
 Requires significant RAM for large models
-🤝 Contributing
+###🤝 Contributing
 Pull requests welcome! Please ensure:
 
 Proper error handling
