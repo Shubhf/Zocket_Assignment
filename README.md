@@ -37,6 +37,7 @@ if result['status'] == 'success':
     print(f"Summary: {result['summary']}")
 else:
     print(f"Error: {result['message']}")
+}
 ##📋 Sample Output
 
 {
